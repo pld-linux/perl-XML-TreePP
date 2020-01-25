@@ -4,7 +4,6 @@
 #
 %define		pdir	XML
 %define		pnam	TreePP
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::TreePP -- Pure Perl implementation for parsing/writing XML documents
 Name:		perl-XML-TreePP
 Version:	0.41
