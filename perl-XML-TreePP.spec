@@ -7,7 +7,7 @@
 Summary:	XML::TreePP -- Pure Perl implementation for parsing/writing XML documents
 Name:		perl-XML-TreePP
 Version:	0.41
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
