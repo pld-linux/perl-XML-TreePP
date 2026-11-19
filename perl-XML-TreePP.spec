@@ -6,18 +6,18 @@
 %define		pnam	TreePP
 Summary:	XML::TreePP -- Pure Perl implementation for parsing/writing XML documents
 Name:		perl-XML-TreePP
-Version:	0.41
-Release:	3
+Version:	0.43
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3e999ac519163cf3cab70d3ee8d40b34
+Source0:	https://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	f69693066e52591bf1142d3f4e6d37e5
 URL:		http://search.cpan.org/dist/XML-TreePP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-libwww >= 5.802
+BuildRequires:	perl-libwww >= 5.811
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
